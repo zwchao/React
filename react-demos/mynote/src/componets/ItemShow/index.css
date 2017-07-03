@@ -1,0 +1,58 @@
+.showError{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top:10px;
+    right: 0px;
+}
+.no-select{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #99d;
+    font-weight: bold;
+}
+.show-component{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+.button-area{
+    width: 150px;
+    height: 50px;
+    float: right;
+
+}
+.btn{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #234;
+    border-radius: 2px;
+} 
+.btn-edit:hover{
+    background-color: #456;
+
+}
+.btn-delete:hover{
+    background-color: #ac1234;
+
+}
+h2{
+    width: 500px;
+    height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 24px;
+    color: #345;
+}
+.edit-area{
+    width: 100%;
+    text-align: left;
+    color: #234;
+    font-size: 16px;
+}

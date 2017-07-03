@@ -1,0 +1,9 @@
+.list-component{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    line-height: 50px;
+    font-size: 16px;
+    color:#fff;
+    text-align: left;
+}
