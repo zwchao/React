@@ -1,0 +1,19 @@
+{
+  "name": "react-express",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.11"
+  },
+ "scripts": {
+    "react-start": "react-scripts start",
+    "start": "concurrently \"yarn react-start\" \"cd server && yarn start\"",
+    "react-build": "react-scripts build",
+    "build": "concurrently \"yarn react-build\" \"cd server && yarn build\"",
+    "test": "node scripts/test.js --env=jsdom"
+}
+  
+}
